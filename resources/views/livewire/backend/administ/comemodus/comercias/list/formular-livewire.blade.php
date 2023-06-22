@@ -1,18 +1,18 @@
 <table id="example2" class="table table-bordered table-hover">
     <thead>
         <tr>
-            <th wire:click="sortBy('explotacs.id')">#
-                <x-template.ordenar-component campoxxx="explotacs.id" :direccio="$sortDirection" :campcamb="$sortField">
+            <th wire:click="sortBy('comercias.id')">#
+                <x-template.ordenar-component campoxxx="comercias.id" :direccio="$sortDirection" :campcamb="$sortField">
                 </x-template.ordenar-component>
             </th>
-            <th wire:click="sortBy('explotacs.tipomine_id')">
+            <th wire:click="sortBy('comercias.tipomine_id')">
                 Tipo Mineral
-                <x-template.ordenar-component campoxxx="explotacs.tipomine_id" :direccio="$sortDirection" :campcamb="$sortField">
+                <x-template.ordenar-component campoxxx="comercias.tipomine_id" :direccio="$sortDirection" :campcamb="$sortField">
                 </x-template.ordenar-component>
             </th>
-            <th wire:click="sortBy('explotacs.cantidad')">
+            <th wire:click="sortBy('comercias.cantidad')">
                 Cantidad
-                <x-template.ordenar-component campoxxx="explotacs.cantidad" :direccio="$sortDirection" :campcamb="$sortField">
+                <x-template.ordenar-component campoxxx="comercias.cantidad" :direccio="$sortDirection" :campcamb="$sortField">
                 </x-template.ordenar-component>
             </th>
             <th wire:click="sortBy('estados.estado')">
